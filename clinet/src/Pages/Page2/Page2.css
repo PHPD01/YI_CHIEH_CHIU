@@ -1,0 +1,210 @@
+.btnt {
+  border: none;
+  outline: none;
+  padding: 10px 16px;
+  background-color: #f1f1f1;
+  /* cursor: pointer; */
+  /* font-size: 18px; */
+}
+
+.activet {
+  /* background-color: #666; */
+  color: white;
+}
+
+
+/* 芷萱加的 */
+/* 左半部設定 */
+#restaurantLeft {
+  /* position: fixed; */
+  position: relative;
+  background-color: rgb(243, 243, 243);
+  width: 10%;
+  /* top: 450px; */
+  margin: 5px;
+  height: 100%;
+  text-align:left;
+  /* text-align: center; */
+  /* border: 1px solid black; */
+}
+
+.situtationinput {
+  /* border: 1px solid black; */
+  /* left: 20px; */
+  position: relative;
+}
+.situtationBtn{
+  position: relative;
+  left: -5px;
+  
+}
+
+/* 右半部設定 */
+#restaurantRight {
+  padding-left: 25px;
+  /* margin-left: 4.5px; */
+  /* border: 1px solid black; */
+  position: relative;
+  width: 90%;
+  left: 9%;
+  top: -385px;
+  /* text-align: center; */
+  /* background-color: blue; */
+}
+
+.pagecolmodle{
+  background-color: rgb(211, 211, 211);
+}
+
+.topage3{
+  color: black;
+  text-align: left;
+  /* border: 1px solid rgb(255, 136, 68); */
+}
+
+.hrstyle{
+  border: 1.5px solid rgb(255, 136, 68);
+
+}
+
+.page2list{
+  text-decoration: none;
+
+}
+
+.page2comment{
+  /* border: 1px solid rgb(255, 136, 68); */
+  padding: 25px;
+}
+
+.resterauntimg:hover{
+opacity: 0.8;
+}
+
+.resterauntlist:hover{
+  color: rgb(255, 136, 68);
+}
+
+
+/* 返回最上面快捷鈕----------------------- */
+.backtop{
+  /* border: 1px solid black; */
+  background-color: rgb(255, 136, 68);
+  /* color: white; */
+  width: 50px;
+  position: fixed;
+  bottom: 30px;
+  /* left: 94.4%; */
+  left: 96.4%;
+  padding-left: 7px;
+  padding-top: 10px;
+  /* height: 120px; */
+  height: 50px;
+  z-index: 1;
+  text-decoration: none;
+}
+
+.backtopa{
+  text-decoration: none;
+  font-size: 20px;
+  /* position: relative; */
+  /* text-align: center;/ */
+  color: rgb(122, 100, 87) ;
+}
+
+.backtop p{
+  font-size: 14px;
+  /* border: 1px solid black; */
+}
+
+.backtop .backtopimg{
+  /* border: 1px solid red; */
+  width: 30px;
+}
+
+.backtop a:hover{
+  color: white;
+}
+
+.rwd300tag{
+  display: none;
+}
+
+
+@media only screen and (min-width: 300px) and (max-width: 999px)   {
+  #restaurantLeft {
+    /* position: fixed; */
+    position: relative;
+    /* position: fixed; */
+    background-color: rgb(243, 243, 243);
+    width: 25%;
+    /* top: 450px; */
+    margin: 5px;
+    height: 100%;
+    text-align:left;
+    font-size:10px;
+    /* text-align: center; */
+    /* border: 1px solid black; */
+  }
+
+  #restaurantRight {
+    /* padding-left: 25px; */
+    /* margin-left: 10px; */
+    /* border: 1px solid black; */
+    position: relative;
+    width: 90%;
+    left: 25%;
+    top: -410px;
+    display: inline;
+    font-size: 10px;
+    /* text-align: center; */
+    /* background-color: blue; */
+  }
+
+  .rwd999list{
+    display: none;
+  }
+
+  .rwdlistver{
+    display:block;
+    /* background-color: blue; */
+  }
+
+  .rwd300tag{
+    display: block;
+  }
+
+  .rwd999tag{
+    display: none;
+  }
+
+  .backtop{
+    /* border: 1px solid black; */
+    background-color: rgb(255, 136, 68);
+    /* color: white; */
+    width: 50px;
+    position: fixed;
+    bottom: 30px;
+    /* left: 94.4%; */
+    left: 88%;
+    padding-left: 7px;
+    padding-top: 10px;
+    /* height: 120px; */
+    height: 50px;
+    z-index: 1;
+    text-decoration: none;
+  }
+
+
+
+}
+
+
+@media only screen and (min-width: 999px) and (max-width: 1599px)   {
+    
+  .rwdlistver{
+    display: none;
+  }
+  
+     
+}
